@@ -1,0 +1,13 @@
+<%=  form_for @user do|f| %>
+	<%= f.label "Name" %>:
+	<%= f.text_field :name %><br/>
+
+	<%= f.label "address" %>:
+	<%= f.text_area :address %><br/>
+
+	<%= f.label "phone" %>:
+	<%= f.text_field :phone %><br/>
+
+	<%= f.submit "Save" %>
+
+<% end %>
